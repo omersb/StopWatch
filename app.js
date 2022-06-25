@@ -16,7 +16,6 @@ let loop;
 start.addEventListener('click',()=> {
     if(start.innerText == "start"){
         start.innerText = "stop";
-        clearInterval(loop);
     loop = setInterval(counter, 1)
      
 
